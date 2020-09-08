@@ -34,16 +34,16 @@
         vr-mode-ui='enabled: false' embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
         <!-- minDistance指定した方がいいかも -->
-        <a-camera gps-camera rotation-reader></a-camera>    
-    </a-scene>
-    <a-entity
+        <a-camera gps-camera rotation-reader></a-camera>   
+        <a-entity
         gps-entity-place="latitude:36.063341; longitude:136.242972;"
         name="a"
         gltf-model="./assets/lowpoly_pin/scene.gltf"
         scale="2 2 2"
         rotation="0 180 0"
       ></a-entity>
-
+    </a-scene>
+   
     <div class="centered">
         <input type="text" placeholder="Name of Spot" class="form-control" id="title">
         <div class="container">
