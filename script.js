@@ -173,7 +173,7 @@ function renderPlaces(places) {
         // モデル用の空entityタグを生成
         let model = document.createElement('a-entity');
         // タグに緯度と経度を追加
-        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        model.setAttribute('gps-entity-place', `latitude: ${36.063341}; longitude: ${136.242972};`);
         model.setAttribute('name', `${title}`);
 
         
